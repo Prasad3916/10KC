@@ -9,3 +9,9 @@ git log --- information  about the files we commit
 git add ., git add -A
 
 git show id(in the log command)
+
+
+
+git remote add origin https://github.com/Prasad3916/10KC.git
+git branch -M main
+git push -u origin main
