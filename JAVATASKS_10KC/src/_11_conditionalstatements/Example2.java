@@ -10,7 +10,7 @@ public class Example2 {
 		}
 		return "Negative";
 			
-		}
+		
 	}
 	public static void main(String[] args) {
 		Example2 e2=new Example2();

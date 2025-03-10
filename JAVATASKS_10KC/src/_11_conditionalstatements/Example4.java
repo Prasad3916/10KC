@@ -11,7 +11,7 @@ public class Example4 {
 			}
 		return num1 | num2;
 		}
-	}
+	
 	public static void main(String[] args) {
 		Example4 e4=new Example4();
 		int res1=e4.findGreater(10,20);
