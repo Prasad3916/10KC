@@ -5,9 +5,8 @@ public class Example3 {
 		if(age>=18) {
 			return true;
 		}
-		else {
-			return false;
-		}
+		return false;
+		
 	}
 	public static void main(String[] args) {
 		Example3 e3=new Example3();

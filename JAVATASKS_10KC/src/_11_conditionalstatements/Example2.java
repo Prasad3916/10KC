@@ -5,13 +5,11 @@ public class Example2 {
 		if(num>0) {
 			return "Positive";
 		}
-		else {
-			if(num==0) {
-				return "Zero";
-			}
-			else {
-				return "Negative";
-			}
+		if(num<0) {
+			return "Negative";
+		}
+		return "Negative";
+			
 		}
 	}
 	public static void main(String[] args) {

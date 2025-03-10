@@ -5,9 +5,7 @@ public class Example5 {
 		if(num%5==0) {
 			return true;
 		}
-		else {
-			return false;
-		}
+		return false;
 	}
 	public static void main(String[] args) {
 		Example5 e5=new Example5();
