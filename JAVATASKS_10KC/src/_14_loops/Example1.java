@@ -1,9 +1,6 @@
 package _14_loops;
 
 public class Example1 {
-	
-	
-	
 	void printNumbersFrom1To10() {
 		System.out.println("1 to 10 Numbers");
 		for(int i=1;i<=10;i++) {
@@ -34,7 +31,6 @@ public class Example1 {
 			System.out.println(i);
 		}
 	}
-
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Example1 e1=new Example1();
