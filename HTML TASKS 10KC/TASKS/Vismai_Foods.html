@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: monospace;
+        }
+        a{
+            text-decoration:none ;
+            color: darkblue;
+
+        }
+        a:hover{
+            text-decoration: underline;
+        }
+        body .header1{
+            display: flex;
+            justify-content: space-between;
+            background-color: fuchsia;
+            width: 100%;
+        }
+        body .header2 ul{
+            display: flex;
+            list-style: none;
+            gap: 10px;
+        }
+        body .header2 div{
+            display: flex;
+            align-items: center;
+            gap: 30px;
+        }
+        body .header2,.header3{
+            display: flex;
+            width: 80%;
+            justify-content: space-between;
+            margin: 20px 10%;
+            align-items: center;
+        }
+        section{
+            max-width: 100%;
+            margin: 5px 10%;
+            max-height: 400px;
+            box-sizing: content-box;
+        }
+        section div{
+            display:flex;
+            margin:  15px 0px;
+            justify-content: space-between;
+        }
+      
+     section div div{
+        width: 220px;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+     }
+     body .section1{
+            display: flex;
+            width: 80%;
+            justify-content: space-between;
+            margin: 20px 10%;
+            align-items: center;
+            background: darkorchid;
+            padding: 15px;
+     }
+
+    </style>
+</head>
+<body>
+    
+        <div class="header1">
+            <p style="margin:0 10%; padding: 5px 0;"><small><i class="fa fa-search"></i>Search Recipes in Vismai food-Enter cruisine,ingredient,diet,etc</small></p>
+            <a  href="" style="margin: 0 10%; padding: 5px 0;"><small>Recipe Index</small></a>
+        </div>
+        <header>
+        <div class="header2">
+            <div>
+                <a href=""><img src="https://vismaifood.com/themes/pivisions/assets/images/logo.png" alt="" width="90px"></a>
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Receipe</a></li>
+                    <li><a href="">Subscribe</a></li>
+                </ul>
+            </div>
+            <p>Site also available in:<a href="">Telugu</a></p>
+        </div>
+        <div class="header3">
+                <input type="search" style="width: 100%; height: 20px; padding:12px 8px;" id="search" placeholder="Search by Ingredients,cuisine,Category,Diet." required>
+                <button>
+                    <img src="https://vismaifood.com/themes/pivisions/assets/images/icons/arrow-right-orange.svg" height="20">
+                </button>
+        </div>
+    </header>
+    <section >
+        <h1 style="color: darkorange;">Trending Recipes</h1>
+        <div>
+            <div >
+                <img src="https://vismaifood.com/storage/app/uploads/public/a79/98f/c96/thumb__600_0_0_0_auto.jpg" alt="" height="250px" >
+                <a href=""><h3>Miriyala Pappu Charu Recipe | Black Pepper Dal Rasam | Pepper Dal Rasam</h3>  </a>
+            </div>
+            <div>
+                <img src="https://vismaifood.com/storage/app/uploads/public/ba6/d36/647/thumb__600_0_0_0_auto.jpg" alt="" height="250px" width="220px">
+                <a href=""><h3>Wedding Style Soya Keema Masala | Pure Veg Keema Balls Masala | Keema Balls</h3></a>
+            </div>
+            <div>
+                <img src="https://vismaifood.com/storage/app/uploads/public/85a/1eb/81d/thumb__600_0_0_0_auto.jpg " alt="" height="250px" width="220px">
+                <a href=""><h3>Andhra Style Peethala Iguru Recipe | Spicy Crab Curry | Crab Recipe</h3></a>
+            </div>
+        </div>
+    </section>
+    <div style="width: 80%;margin: 20px 10%;background-color: blueviolet;padding: 15px;">
+            <div style="display: flex;justify-content: space-between;">
+                <div>
+                    <h3>Want vismai foods recipes in your inbox?</h3>
+                    <p><small>Subscribe with your email address and we will send new recipes as they are published.</small></p>
+                </div>
+                <div >
+                    <div style="display:flex;align-items: center;">
+                        <input type="search" style=" height: 20px; padding:12px 8px;" id="search" placeholder="Search by Ingredients,cuisine,Category,Diet." required>
+                        <button><img src="https://vismaifood.com/themes/pivisions/assets/images/icons/arrow-right-orange.svg" height="20"></button>     
+                    </div>
+                    <p><small>We DON’T share your data with anyone. <a href="">Privacy Policy</a></small></p>
+                </div>
+            </div>
+    </div>
+    <div style="width: 60%; margin: 20px 10%;">
+        <h2>Popular Recipes <img src="https://vismaifood.com/themes/pivisions/assets/images/icons/5stars.svg" alt=""></h2>
+        <div style=" align-items: center; display: flex;gap: 15px;margin: 15px 0px;background-color: beige;">
+            <img src="https://vismaifood.com/storage/app/uploads/public/d4a/9d8/409/thumb__400_0_0_0_auto.jpg" alt="" height="150px" width="150px">
+            <h3 style="max-width: 400px;"><a href="">Crunchy Kanda Karam Podi Recipe | Kanda Karam Podi | Kara Podi Recipes</a></h3>
+        </div>
+        <div style=" align-items: center; display: flex;gap: 15px;margin: 15px 0px;background-color: beige;">
+            <img src="https://vismaifood.com/storage/app/uploads/public/aee/096/3bb/thumb__400_0_0_0_auto.jpg" alt="" height="150px" width="150px">
+            <h3 style="max-width: 400px;"><a href="">Coconut Ven Pongal Recipe | Kattu Pongali Recipe | Coconut Milk Pongal Recipe</a></h3>
+        </div>
+        <div style=" align-items: center; display: flex;gap: 15px;margin: 15px 0px;background-color: beige;">
+            <img src="https://vismaifood.com/storage/app/uploads/public/068/515/230/thumb__400_0_0_0_auto.jpg" alt="" height="150px" width="150px">
+            <h3 style="max-width: 400px;"><a href="">Bakery-Style Eggless Red Velvet Cupcakes Recipe | Red Velvet Cupcake Recipe</a></h3>
+        </div>
+        <div style=" align-items: center; display: flex;gap: 15px;margin: 15px 0px;background-color: beige;">
+            <img src="https://vismaifood.com/storage/app/uploads/public/377/789/1a9/thumb__400_0_0_0_auto.jpg" alt="" height="150px" width="150px">
+            <h3 style="max-width: 400px;"><a href="">Andhra Style Spicy Aloo Velluli Karam Recipe | Aloo Vellulli Recipe</a></h3>
+        </div>
+    </div>
+    <div class="categories">
+    <a href="https://vismaifood.com/en/recipes/breakfast-recipes">
+        <span class="icon"><img src="https://vismaifood.com/storage/app/uploads/public/601/2b3/61c/6012b361c9855497032279.png"></span>
+        <span class="category-title"> Breakfast Recipes</span>
+    </a>
+        <a href="https://vismaifood.com/en/recipes/main-course">
+    <span class="icon"><img src="https://vismaifood.com/storage/app/uploads/public/601/2b3/6a0/6012b36a0f9bc927263226.png"></span>
+    <span class="category-title"> Curries</span>
+  </a>
+        <a href="https://vismaifood.com/en/recipes/flavored-rice">
+    <span class="icon"><img src="https://vismaifood.com/storage/app/uploads/public/60e/584/0f7/60e5840f7b80a188836536.png"></span>
+    <span class="category-title"> Flavored Rice</span>
+  </a>
+        <a href="https://vismaifood.com/en/recipes/sweets">
+    <span class="icon"><img src="https://vismaifood.com/storage/app/uploads/public/601/2b3/706/6012b37061beb650436066.png"></span>
+    <span class="category-title"> Sweets</span>
+  </a>
+        <a href="https://vismaifood.com/en/recipes/snacks">
+    <span class="icon"><img src="https://vismaifood.com/storage/app/uploads/public/601/2b3/954/6012b3954352c775030058.png"></span>
+    <span class="category-title"> Snacks</span>
+  </a>
+        <a href="https://vismaifood.com/en/recipes/prasadam">
+    <span class="icon"><img src="https://vismaifood.com/storage/app/uploads/public/603/4b7/d47/6034b7d47d3da416549886.png"></span>
+    <span class="category-title"> Prasadam</span>
+  </a>
+        <a href="https://vismaifood.com/en/recipes/starters">
+    <span class="icon"><img src="https://vismaifood.com/storage/app/uploads/public/601/2b3/8e9/6012b38e949b2002292267.png"></span>
+    <span class="category-title"> Starters</span>
+  </a>
+        <a href="https://vismaifood.com/en/recipes/desserts-drinks">
+    <span class="icon"><img src="https://vismaifood.com/storage/app/uploads/public/601/2b3/86a/6012b386a91bf860060119.png"></span>
+    <span class="category-title"> Desserts &amp; Drinks</span>
+  </a>
+        <a href="https://vismaifood.com/en/recipes/baking">
+    <span class="icon"><img src="https://vismaifood.com/storage/app/uploads/public/601/2b3/7c1/6012b37c1e6e1348139960.png"></span>
+    <span class="category-title"> Baking</span>
+  </a>
+        <a href="https://vismaifood.com/en/recipes/pickles-and-chutneys">
+    <span class="icon"><img src="https://vismaifood.com/storage/app/uploads/public/601/2b3/761/6012b37613cbd634302103.png"></span>
+    <span class="category-title"> Pickles &amp; Chutneys</span>
+  </a>
+        <a href="https://vismaifood.com/en/recipes/summer-recipes">
+    <span class="icon"><img src="https://vismaifood.com/storage/app/uploads/public/604/caa/e93/604caae933243523713812.png"></span>
+    <span class="category-title"> Summer Recipes</span>
+  </a>
+        <a href="https://vismaifood.com/en/recipes/egg-recipes">
+    <span class="icon"><img src="https://vismaifood.com/storage/app/uploads/public/604/cab/097/604cab0975b0c108615492.png"></span>
+    <span class="category-title"> Egg Recipes</span>
+  </a>
+        <a href="https://vismaifood.com/en/recipes/wedding-style-recipes">
+    <span class="icon"><img src="https://vismaifood.com/storage/app/uploads/public/604/cab/aa6/604cabaa6fe52652779161.png"></span>
+    <span class="category-title"> Wedding Style recipes</span>
+  </a>
+  </div>
+</body>
+</html>
+
+
+
