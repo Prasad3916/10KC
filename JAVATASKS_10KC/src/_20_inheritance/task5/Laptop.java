@@ -1,4 +1,4 @@
-package _20_inheritance_task5;
+package _20_inheritance.task5;
 
 public class Laptop extends Computer{
 	void showmodel() {

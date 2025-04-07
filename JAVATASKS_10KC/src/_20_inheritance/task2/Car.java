@@ -1,4 +1,4 @@
-package _20_inheritance_task2;
+package _20_inheritance.task2;
 
 public class Car extends Vehicle {
 

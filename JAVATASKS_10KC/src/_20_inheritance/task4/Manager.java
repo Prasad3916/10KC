@@ -1,4 +1,4 @@
-package _20_inheritance_task4;
+package _20_inheritance.task4;
 
 public class Manager extends Employee{
 	int bonus=20000;

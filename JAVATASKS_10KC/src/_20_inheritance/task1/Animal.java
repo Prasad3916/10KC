@@ -1,4 +1,4 @@
-package _20_inheritance_task1;
+package _20_inheritance.task1;
 
 public class Animal {
 	void display(){

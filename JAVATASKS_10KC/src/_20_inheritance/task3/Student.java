@@ -1,4 +1,4 @@
-package _20_inheritance_task3;
+package _20_inheritance.task3;
 
 public class Student extends Person {
 	Student(){
