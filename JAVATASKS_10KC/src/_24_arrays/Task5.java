@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class Task5 {
 	
-	static void reverseArray() {
+	static void copyArray() {
 		int arr[]=Array.getIntArray();
 		int newarr[]=new int[arr.length];
 		for(int i=0;i<arr.length;i++) {
@@ -14,7 +14,7 @@ public class Task5 {
 	}
 	
 	public static void main(String[] args) {
-		reverseArray();
+		copyArray();
 	}
 	
 	}
