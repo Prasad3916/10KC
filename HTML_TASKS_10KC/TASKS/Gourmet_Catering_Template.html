@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            height:100vh;
+           max-width:100vw;
+        }
+        .header{
+            display: flex;
+            height: 30px;
+            background-color: black;
+            color: white;
+            justify-content: space-between;
+            align-items: center;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 12px;
+            letter-spacing: 1.2px;
+            /* padding: 0 40px; */
+            position: fixed;
+            width: 100%;
+            z-index: 10;
+            top: 0;
+        }
+        .header a{
+            padding: 10px;
+            color: white;
+            text-decoration: none;
+        }
+        .header ul{
+            display: flex;
+            list-style: none;
+        }
+        .header ul li{
+            padding: 10px;
+        }
+        .body{
+            height: 100vh;
+            width: 100%;
+            background-image: url(https://www.w3schools.com/w3images/hamburger.jpg);
+            background-size: cover;
+            position: relative;
+        }
+        .body h3{
+            position: absolute;
+            bottom: 10px;
+            left: 10px;
+            background: transparent;
+            color: rgb(129, 116, 116);
+            letter-spacing: 2px;
+            height: 25px;
+        }
+        .subfooter1{
+            width: 70%;
+            background-color: black;
+            height: 400px;
+            margin: 40px auto;
+            display: flex;
+        }
+        .subfooter2{
+            width: 70%;
+            background-color: greenyellow;
+            height: 400px;
+            margin: 40px auto;
+            display: flex;
+            align-items: center;
+        }
+        .subfooter1 .img,.subfooter2 .img{
+            height: 100%;
+            width: 100%;
+            opacity: .99;
+        }
+        .subfooter1 .content1,.subfooter2 .content2{
+            height: 100%;
+            width: 100%;
+            background-color: rgb(255, 255, 255);
+        }
+        .subfooter1 .img{
+            background-image: url(https://www.w3schools.com/w3images/tablesetting2.jpg);
+            background-size: cover;
+            height: 100%;
+            width: 100%;
+        }
+        .subfooter2 .img{
+            background-image: url(https://www.w3schools.com/w3images/tablesetting.jpg);
+            background-size: cover;
+        }
+        
+        .content1 h3,.content1 h5{
+            text-align: center;
+            margin: 20px;
+            letter-spacing: 2px;
+        }
+        .content1 h5{
+            margin: 20px;
+            opacity: .7;
+            font-family: sans-serif;
+        }
+        .head1,.head2{
+            font-size: 10px;
+            padding-left: 20px;
+            padding-bottom: 20px;
+            line-height: 18px;
+        }
+        .head2{
+            opacity: 0.5;
+        }
+        .content2 h3{
+            margin: 10px;
+            text-align: center;
+        }
+        .subfooter2 .content2 h5{
+            text-align: start;
+            margin: 10px 0;
+        }
+        .content2 p{
+            font-family: sans-serif;
+            font-size: 8px;
+            opacity: 0.6;
+            word-spacing: 2px;
+        }
+        .content1,.content2{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+        }
+        .content2 h5,.content2 p{
+            align-self: flex-start;
+        }
+        .content2 h5{
+            word-spacing: 2px;
+            letter-spacing: 2px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            opacity: 0.7;
+        margin: 10px 0;
+        }
+
+        .footer1{
+            width: 70%;
+            margin: 30px auto;
+        }
+        .footer1 h2{
+            margin: 25px 0;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            opacity: 0.8;
+            letter-spacing: 2px;
+        }
+        .footer1 .one,.footer1 .three{
+            font-size: 9px;
+            padding: 10px 0;
+        }
+        .footer1 .two{
+            color: rgb(5, 97, 80);
+            font-size: 10px;
+            padding: 10px 0;
+        }
+        input{
+            margin: 10px 0px;
+            display: block;
+            width: 100%;
+            padding: 10px 9px;
+            font-size: 8px;
+            border: none;
+            border-bottom: 0.8px solid;
+        }
+        input:focus{
+            border-width: 1px;
+            /* border: none; */
+        }
+        button{
+            width: 100px;
+            padding: 7px 3px;
+            margin: 10px 0px;
+            font-size: 8px;
+            border: none;
+            background-color: rgb(216, 212, 205);
+        }
+        .footer2{
+            width: 100%;
+            margin: 30px auto;
+            display: flex;
+            height: 90px;
+            background-color: rgb(206, 203, 197);
+            justify-content: center;
+            align-items: center;
+            font-size: 12px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="header">
+        <a href="">Gourmet au Catering</a>
+        <ul>
+            <li>About</li>
+            <li>Menu</li>
+            <li>Contact</li>
+        </ul>
+    </div>
+    <div class="body">
+        <h3>Le Catering</h3>
+    </div>
+    <div class="subfooter1">
+        <div class="img"></div>
+        <div class="content1">
+            <h3>About Catering</h3>
+            <h5>Tradition since 1889</h5>
+            <p class="head1">The Catering was founded in blabla by Mr. Smith in lorem ipsum dolor sit amet, consectetur adipiscing elit consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute iruredolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.We only use seasonal ingredients.</p>
+            <p class="head2">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod temporincididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+     
+    </div>
+    <hr style="width: 70%;margin: 0 auto;opacity: 0.3;">
+    <div class="subfooter2">
+        <div class="content2">
+            <h3>Our Menu</h3>
+            <h5>Bread Basket</h5>
+            <p>Assortment of fresh baked fruit breads and muffins 5.50</p>
+            <h5>Honey Almond Granola with Fruits</h5>
+            <p>Natural cereal of honey toasted oats, raisins, almonds and dates 7.00</p>
+            <h5>Belgian Waffle</h5>
+            <p>Vanilla flavored batter with malted flour 7.50</p>
+            <h5>Scrambled eggs</h5>
+            <p>Scrambled eggs, roasted red pepper and garlic, with green onions 7.50</p>
+            <h5>Blueberry Pancakes</h5>
+            <p>With syrup, butter and lots of berries 8.50</p>
+        </div>
+        <div class="img"></div>
+    </div>
+    <hr style="width: 70%;margin: 0 auto;opacity: 0.3;">
+    <div class="footer1">
+        <h2>Contact</h2>
+        <p class="one">We offer full-service catering for any event, large or small. We understand your needs and we will cater the food to satisfy the biggerst criteria of them all, both look and taste. Do not hesitate to contact us.</p>
+        <p class="two">Catering Service, 42nd Living St, 43043 New York, NY</p>
+        <p class="three">You can also contact us by phone 00553123-2323 or email catering@catering.com, or you can send us a message here:</p>
+        <form action="">
+            <input type="text" class="name" placeholder="Name">
+            <input type="text" placeholder="How Many People">
+            <input type="datetime-local" placeholder="23-04-2025 17:00">
+            <input type="text" placeholder="Message \ Special requirements">
+           <button type="submit">SEND MESSAGE</button>
+        </form>
+    </div>
+    <div class="footer2">
+        <p>Powered by <a href="">w3.css</a></p>
+    </div>
+</body>
+</html>
